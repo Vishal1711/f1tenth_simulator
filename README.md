@@ -9,18 +9,14 @@ https://f1tenth.readthedocs.io/en/latest/going_forward/simulator/index.html
 
 ### Dependencies
 
-If you have ```ros-melodic-desktop``` installed, the additional dependencies you must install are:
+If  ```ros-noetic-desktop``` installed, the additional dependencies you must install are:
 
 - tf2_geometry_msgs
 - ackermann_msgs
 - joy
 - map_server
 
-You can install them by running:
 
-    sudo apt-get install ros-melodic-tf2-geometry-msgs ros-melodic-ackermann-msgs ros-melodic-joy ros-melodic-map-server
-
-The full list of dependencies can be found in the ```package.xml``` file.
 
 ### Installation
 
@@ -166,3 +162,29 @@ The parameters listed below can be modified in the ```params.yaml``` file.
 
 ```joy_button_idx```: The index of the joystick button used to turn on/off joystick driving.
 
+## Demo
+
+### Vehicle in motion (teleop)
+![motion](https://user-images.githubusercontent.com/79803663/168195617-beb77b2e-64c5-40e8-a060-28260dbfbef6.png)
+
+### Teleop in ROS
+
+![teleop](https://user-images.githubusercontent.com/79803663/168196047-f57dc9aa-22e2-4579-a045-dada3d3fd161.png)
+
+### Wall 
+
+![wall](https://user-images.githubusercontent.com/79803663/168195756-ae32c2c0-d7e8-47fa-a13d-afcdc69c65df.png)
+
+### Car (Xacro file)
+
+![car](https://user-images.githubusercontent.com/79803663/168195796-a2242541-5d08-40f4-a8d6-0b3560a77d94.png)
+
+### Xacro file
+
+<img width="233" alt="image" src="https://user-images.githubusercontent.com/79803663/168196141-cc886f75-63e4-4296-89bf-fca2c287924a.png">
+
+
+### Different Track in simulation
+
+
+![Berlin](https://user-images.githubusercontent.com/79803663/168195818-eced56bc-d675-406d-84b8-e32ab1806ad0.png)
